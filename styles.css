@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	src: url('police/Comfortaa/Comfortaa-Regular.ttf');
+	font-family: 'comfortaa';
+}
+
+@font-face {
+	src: url('police/MedievalSharp/MedievalSharp.ttf');
+	font-family: 'MedievalSharp';
+}
+
+@font-face {
+	src: url('police/Baloo_Bhaijaan/BalooBhaijaan-Regular.ttf');
+	font-family: 'baloo';
+}
+
+.comfortaa {
+	font-family: 'comfortaa';
+	color: #D63754;
+}
+.baloo  {
+	font-family: 'baloo';
+	color: black;
+}
+.img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.flexbtwn {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flexcol {
+	display: flex;
+	flex-direction: column;
+}
+.maxwidth {
+	max-width: 85%;
+}
+/** header **/
+#menu, .menu {
+display: flex;
+justify-content: space-between;
+}
+#menu {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu {
+	width: 60%;
+	align-items: center;
+	justify-content: space-between;
+}
+header {
+	background-color: #8EBE98;
+	color: #D63754;
+	padding: 30px 0;
+	font-family: 'comfortaa';
+	font-size: 1em;
+}
+.logo {
+	max-height: 77px;
+}
+
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+}
+.centersection {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	max-width: 85%;
+}
+/* section lager*/
+#lagertha {
+	background-image: url('img/vikings-pascontentsverts2.jpg');
+	background-size: cover;
+	height: 660px;
+}
+
+#lagertha > .centersection > h2 {
+	padding-top: 30px;
+	font-size: 43px;
+	margin-bottom: 216px;
+}
+#lagertha .flexbtwn > img {
+max-width: 100%;
+max-height: 100%;
+}
+#lagertha .flextwn {
+	position: absolute;
+	bottom: 30px;
+}
+.flexcol img {
+	align-items: center;
+}
+/*section barbaq*/
+#barbaque {
+	background-color:#C6DECB; 
+}
+.grid1 {
+	display: grid;
+	grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.poulet {
+	grid-area: 1 / 1 / span 7 / 1;
+max-height: 550px;
+}
+.elgrid1 {
+grid-area: 1/ 2 / span 2 / span 3;
+font-size: 2em;
+}
+.elgrid12{
+	grid-area: 3 / 2/ span 4 / span 3;
+}
+.elgrid13{
+	grid-area: 7 / 2 / span 1/ span 3; 
+}
+.elgrid14 {
+	grid-area: 7 / 4 / span 1/span 1;
+}
