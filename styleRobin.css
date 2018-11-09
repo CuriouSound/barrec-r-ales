@@ -1,0 +1,29 @@
+.blackfooter{
+
+    background-color:black;
+    height:300px;
+    width: 100%;
+    position: relative;
+    
+   
+}
+.txt{
+    color:red;
+    padding-top:50px;
+}
+.apropos{
+    display: inline-block;
+    margin-left:10%
+}
+.nosproduits{
+    position: absolute;
+ 
+ display: inline-block;
+ margin-left:50%;
+}
+.logos{
+
+}
+.mentions{
+
+}
